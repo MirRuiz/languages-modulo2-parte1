@@ -103,10 +103,10 @@ Crea una función isBookRead que reciba una lista de libros y un título y devue
          if(book.title === titleToSearch && book.isRead ===  true){
              return true;
          }
-         return false;
-      };
+        };
+        return false;
   };
-  console.log(isBookRead(books, "Harry Potter y la piedra filosofal"));
+  console.log(isBookRead(books, "Devastación"));
 
   /*
   5. Slot Machine
